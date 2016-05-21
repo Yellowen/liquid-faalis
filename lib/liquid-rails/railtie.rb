@@ -21,6 +21,10 @@ module Liquid
           end
         end
       end
+
+      def self.setup
+        yield self
+      end
     end
   end
 end

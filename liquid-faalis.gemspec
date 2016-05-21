@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'liquid-rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'liquid-rails'
+  spec.name          = 'liquid-faalis'
   spec.version       = Liquid::Rails::VERSION
-  spec.authors       = ['Chamnap Chhorn']
-  spec.email         = ['chamnapchhorn@gmail.com']
-  spec.summary       = %q{Renders liquid templates with layout and partial support}
+  spec.authors       = ['Chamnap Chhorn', 'Sameer Rahmani']
+  spec.email         = ['chamnapchhorn@gmail.com', 'lxsameer@gnu.org']
+  spec.summary       = %q{Renders liquid templates with layout and partial support for Rails and Faalis}
   spec.description   = %q{It allows you to render .liquid templates with layout and partial support. It also provides filters, tags, drops class to be used inside your liquid template.}
   spec.homepage      = ''
   spec.license       = 'MIT'
